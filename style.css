@@ -1,0 +1,77 @@
+:root{
+    --red: #ff4c68;
+}
+
+body{
+    background-color: var(--red);
+    color: white;
+    font-family: 'Montserrat-light', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.main-sec{
+    height: fit-content;
+    
+    background-color: var(--red);
+}
+
+.header{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+img{
+    height: 350px;
+    width: 300px;
+    transform: rotate(-1deg);
+} 
+
+.intro{
+    width: 50%;
+}
+ #root{
+  margin: auto;
+} 
+.container{
+    padding: 60px;
+}
+blockquote{
+    padding: 5px;
+}
+strong{
+    font-size: larger;
+    font-weight: 600;
+}
+
+
+.section-2{
+    background-color: white;
+    color: black;
+}
+h3{
+    text-decoration: underline;
+    text-align: center;
+    color: var(--red);
+}
+ul li {
+    padding: 1.3px;
+}
+ul li::marker{
+    font-size: 1.3em;
+    color: var(--red);
+}
+.contact{
+    color: white;
+    text-decoration: none;
+    font-family:'Ubuntu', sans-serif;
+}
+footer{
+    color: white;
+}
+
+small{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
